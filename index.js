@@ -15,6 +15,7 @@ const createTimerAnimator = () => {
 
       if (inputValue === 0) {
         clearInterval(timer);
+        inputEl.removeAttribute('disabled')
       }
 
       const strTimer = `${renderHours}:${renderMins}:${renderSeconds}`;
