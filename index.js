@@ -41,5 +41,6 @@ buttonEl.addEventListener('click', () => {
 
   animateTimer(seconds);
 
+  inputEl.setAttribute('disabled', '')
   inputEl.value = '';
 });
